@@ -1,15 +1,15 @@
 """
-Inserta el encabezado aquí y escribe tu código abajo
+Regresa si un número dado tiene o no decimales.
 """
-
-# Declaraciones
-CONSTANTE = valor
-
 # Entradas
-entrada = input()
+numero = float(input("Introduzca un número: "))
 
 # Proceso
-
+numero_entero = int(numero)
+if numero_entero == numero:
+    resultado = "No"
+else:
+    resultado = "Sí"
 
 # Salidas
-print(salida)
+print(resultado, "tiene decimales")
